@@ -22,12 +22,9 @@ void swap(long long *a, long long *b)
 //求最大公约数
 long long gcd(long long m, long long n)
 {
-    if (m < n) {
-        swap(&m, &n);
-    }
     if (n == 0) {
         return m;
-    }
+    } 
 
     return gcd(n, m % n);
 }
