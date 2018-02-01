@@ -38,7 +38,7 @@ int main(void)
         scanf("%d", nums + i);
     }
 
-    //降序排序
+    //非递增排序
     qsort(nums, N, sizeof(int), cmp);
 
     getNM(&n, &m, N);

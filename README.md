@@ -89,4 +89,9 @@
 
 ==============================甲级==============================
 
-* 1001  [A+B Format](https://www.patest.cn/contests/pat-a-practise/1001)
+* [1001.cpp](https://github.com/sphc/PAT/blob/master/AdvancedLevel/1001.cpp) [A+B Format](https://www.patest.cn/contests/pat-a-practise/1001)
+* [1002.cpp](https://github.com/sphc/PAT/blob/master/AdvancedLevel/1002.cpp) [A+B for Polynomials](https://www.patest.cn/contests/pat-a-practise/1002)
+* [1005.cpp](https://github.com/sphc/PAT/blob/master/AdvancedLevel/1005.cpp) [Spell It Right](https://www.patest.cn/contests/pat-a-practise/1005)
+* [1008.cpp](https://github.com/sphc/PAT/blob/master/AdvancedLevel/1008.cpp) [Elevator](https://www.patest.cn/contests/pat-a-practise/1008)
+* [1011.cpp](https://github.com/sphc/PAT/blob/master/AdvancedLevel/1011.cpp) [World Cup Betting](https://www.patest.cn/contests/pat-a-practise/1011)
+* [1015.cpp](https://github.com/sphc/PAT/blob/master/AdvancedLevel/1015.cpp) [Reversible Primes](https://www.patest.cn/contests/pat-a-practise/1015)
