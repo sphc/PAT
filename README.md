@@ -59,7 +59,7 @@
 * [1051.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1051.c)  [复数乘法](https://www.patest.cn/contests/pat-b-practise/1051)
 * [1052.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1052.c)  [卖个萌](https://www.patest.cn/contests/pat-b-practise/1052)
 * [1053.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1053.c)  [住房空置率](https://www.patest.cn/contests/pat-b-practise/1053)
-* 1054  [求平均值](https://www.patest.cn/contests/pat-b-practise/1054)
+* [1054.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1054.c)  [求平均值](https://www.patest.cn/contests/pat-b-practise/1054)
 * [1055.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1055.c)  [集体照](https://www.patest.cn/contests/pat-b-practise/1055)
 * [1056.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1056.c)  [组合数的和](https://www.patest.cn/contests/pat-b-practise/1056) 
 * [1057.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1057.c)  [数零壹](https://www.patest.cn/contests/pat-b-practise/1057)
@@ -85,7 +85,7 @@
 * [1077.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1077.c)  [互评成绩计算](https://www.patest.cn/contests/pat-b-practise/1077)
 * [1078.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1078.c)  [字符串压缩与解压](https://www.patest.cn/contests/pat-b-practise/1078)
 * [1079.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1079.c)  [延迟的回文数](https://www.patest.cn/contests/pat-b-practise/1079)
-* 1080  [MOOC期终成绩](https://www.patest.cn/contests/pat-b-practise/1080)
+* [1080.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1080.c)  [MOOC期终成绩](https://www.patest.cn/contests/pat-b-practise/1080)
 
 ==============================甲级==============================
 
