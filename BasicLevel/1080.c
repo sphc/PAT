@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
+#include <limits.h>
 
 #define SIZE 30010
 
@@ -33,10 +34,20 @@ int cmp2(const void *left, const void *right)
 //初始化
 void initStudent(Student *student)
 {
-    student->program = 0;
-    student->middle = 0;
-    student->final = 0;
-    student->grade = 0;
+    student->program = INT_MIN;
+    student->middle = INT_MIN;
+    student->final = INT_MIN;
+    student->grade = INT_MIN;
+}
+
+//打印student信息
+void printStudent(const Student *student) 
+{
+    printf("%s ", student->num);
+    printf("%d ", student->program != INT_MIN ? student->program : -1);
+    printf("%d ", student->middle != INT_MIN ? student->middle : -1);
+    printf("%d ", student->final != INT_MIN ? student->final : -1);
+    printf("%d\n", student->grade != INT_MIN ? student->grade : -1);
 }
 
 //将right拷贝至left
@@ -49,69 +60,55 @@ void copyStudent(Student *left, const Student *right)
     left->grade = right->grade;
 }
 
+//合并属性,若left未录入,则将right赋予它
+void addAttribute(int *left, int right)
+{
+    if (*left == INT_MIN) {
+        *left = right;
+    }
+}
+
 //将left与right的成绩相加并存入left中
 void addStudent(Student *left, const Student *right)
 {
-    left->program += right->program;
-    left->middle += right->middle;
-    left->final += right->final;
+    addAttribute(&left->program, right->program);
+    addAttribute(&left->middle, right->middle);
+    addAttribute(&left->final, right->final);
 }
 
 //计算期终成绩,返回值true表示成绩合格,false表示不合格
 bool calculateGrade(Student *student)
 {
-    if (student->program < 0 || student->program > 900 ||
-        student->middle < 0 || student->middle > 100 ||
-        student->final < 0 || student->final > 100) {
-        return false;
-    }
-
     student->grade = student->middle > student->final ? 
         student->middle * 0.4 + student->final * 0.6 + 0.5 : student->final;
 
     return student->program >= 200 && student->grade >= 60;
 }
 
-//打印student信息
-void printStudent(const Student *student) 
-{
-    printf("%s ", student->num);
-    printf("%d ", student->program ? student->program : -1);
-    printf("%d ", student->middle ? student->middle : -1);
-    printf("%d ", student->final ? student->final : -1);
-    printf("%d\n", student->grade ? student->grade : -1);
-}
-
-Student students[SIZE];
-Student result[SIZE];
 
 int main(void)
 {
     int p, m, n;
     int studentSize = 0, resultSize = 0;
+    Student students[SIZE];
+    Student result[SIZE];
 
     //读入数据
     scanf("%d%d%d", &p, &m, &n);
     for (int i = 0; i < p; ++i) {
-        int score;
-
         initStudent(students + studentSize);
-        scanf("%s%d", students[studentSize].num, &score);
-        students[studentSize++].program = score;
+        scanf("%s%d", students[studentSize].num, &students[studentSize].program);
+        ++studentSize;
     }
     for (int i = 0; i < m; ++i) {
-        int score;
-
         initStudent(students + studentSize);
-        scanf("%s%d", students[studentSize].num, &score);
-        students[studentSize++].middle = score;
+        scanf("%s%d", students[studentSize].num, &students[studentSize].middle);
+        ++studentSize;
     }
     for (int i = 0; i < n; ++i) {
-        int score;
-
         initStudent(students + studentSize);
-        scanf("%s%d", students[studentSize].num, &score);
-        students[studentSize++].final = score;
+        scanf("%s%d", students[studentSize].num, &students[studentSize].final);
+        ++studentSize;
     }
 
     //按学号排序,目的是将学号相同的元素放在相邻位置,便于合并
@@ -120,19 +117,9 @@ int main(void)
     for (int i = 0; i < studentSize; ++i) {
         //先将students[i]拷贝至result[resultSize]
         copyStudent(result + resultSize, students + i);
-        /*
-        printf("i:%d  ", i);
-        printf("students: ");
-        printStudent(students + i);
-        printf("result: ");
-        printStudent(result + resultSize);
-        printf("i + 1:%d  studentSize:%d ", i + 1, studentSize);
-        printf("cmp(%d, %d):%d ", i, i + 1, strcmp(students[i].num, students[i + 1].num));
-        printf("&&:%d\n", i + 1 < studentSize && strcmp(students[i].num, students[i + 1].num) == 0);
-        */
         //将学号相等的元素加到result[resultSize],即合并成绩
         //因同一学号至多出现三次,并且每一次只含有一项成绩,故不会多加
-        while (i + 1 < studentSize && strcmp(students[i].num, students[i + 1].num) == 0) {
+        while (i + 1 < studentSize && strcmp(result[resultSize].num, students[i + 1].num) == 0) {
             ++i;
             addStudent(result + resultSize, students + i);
         }
