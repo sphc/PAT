@@ -86,6 +86,11 @@
 * [1078.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1078.c)  [字符串压缩与解压](https://www.patest.cn/contests/pat-b-practise/1078)
 * [1079.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1079.c)  [延迟的回文数](https://www.patest.cn/contests/pat-b-practise/1079)
 * [1080.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1080.c)  [MOOC期终成绩](https://www.patest.cn/contests/pat-b-practise/1080)
+* [1081.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1081.c)  [MOOC期终成绩](https://www.patest.cn/contests/pat-b-practise/1081)
+* [1082.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1082.c)  [MOOC期终成绩](https://www.patest.cn/contests/pat-b-practise/1082)
+* [1083.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1083.c)  [MOOC期终成绩](https://www.patest.cn/contests/pat-b-practise/1083)
+* [1084.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1084.c)  [MOOC期终成绩](https://www.patest.cn/contests/pat-b-practise/1084)
+* [1085.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1085.c)  [MOOC期终成绩](https://www.patest.cn/contests/pat-b-practise/1085)
 
 ==============================甲级==============================
 
