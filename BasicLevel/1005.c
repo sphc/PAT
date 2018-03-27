@@ -58,7 +58,7 @@ int main(void)
         scanf("%d", &num);
         //每一次都查看已经产生的序列中是否包含num，若包含则说明num不可能是关键数
         //这时不保存num及其序列
-        for (int j = 0; j < i; ++j) {
+        for (int j = 0; j < numSize; ++j) {
             if (existed = isExisted(&nums[j], num)) {
                 break;
             }
