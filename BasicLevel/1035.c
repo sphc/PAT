@@ -50,7 +50,7 @@ bool insertSort(int *a, int size, const int *sequence)
     return success;
 }
 
-bool merge(int *a, int *tmp, int left, int leftEnd, int rightEnd)
+void merge(int *a, int *tmp, int left, int leftEnd, int rightEnd)
 {
     int right = leftEnd;
     int tmpPos = left;
