@@ -7,18 +7,18 @@
 ==============================乙级==============================
 
 * [1001.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1001.c)  [害死人不偿命的(3n+1)猜想](https://jkuvw.xyz/archives/66828904)
-* [1002.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1002.c)  [写出这个数]
+* [1002.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1002.c)  [写出这个数](https://jkuvw.xyz/archives/1eb9839a)
 * [1003.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1003.c)  [我要通过!]
-* [1004.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1004.c)  [成绩排名]
+* [1004.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1004.c)  [成绩排名](https://jkuvw.xyz/archives/4c999f0)
 * [1005.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1005.c)  [继续(3n+1)猜想]
-* [1006.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1006.c)  [换个格式输出整数]
-* [1007.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1007.c)  [素数对猜想]
+* [1006.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1006.c)  [换个格式输出整数](https://jkuvw.xyz/archives/887e7360)
+* [1007.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1007.c)  [素数对猜想](https://jkuvw.xyz/archives/de4e4572)
 * [1008.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1008.c)  [数组元素循环右移问题]
-* [1009.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1009.c)  [说反话]
-* [1010.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1010.c)  [一元多项式求导]
-* [1011.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1011.c)  [A+B和C]
-* [1012.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1012.c)  [数字分类]
-* [1013.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1013.c)  [数素数]
+* [1009.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1009.c)  [说反话](https://jkuvw.xyz/archives/d6277fdf)
+* [1010.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1010.c)  [一元多项式求导](https://jkuvw.xyz/archives/28998bd0)
+* [1011.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1011.c)  [A+B和C](https://jkuvw.xyz/archives/e5abcabb)
+* [1012.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1012.c)  [数字分类](https://jkuvw.xyz/archives/95bf5e45)
+* [1013.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1013.c)  [数素数](https://jkuvw.xyz/archives/24242b79)
 * [1014.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1014.c)  [福尔摩斯的约会]
 * [1015.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1015.c)  [德才论]
 * [1016.c](https://github.com/sphc/PAT/blob/master/BasicLevel/1016.c)  [部分A+B]
